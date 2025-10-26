@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bg {
+  background-color: #f1f1f3;
+}
+.open-sans-normal {
+  font-family: "Fira Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.news {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.news-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.news-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.satellite {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  align-items: center;
+  font-family: "Fira Sans", sans-serif;
+}
+.satellite-text {
+  display: flex;
+  flex-direction: column;
+}
+.satellite-img img {
+  border-radius: 24px;
+}
+.satellite-text-title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.aljazeera {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+.datetime {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.satellite-text-descrition {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.satellite-btn {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Fira Sans";
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  align-self: flex-start;
+  background-color: #006a50;
+}

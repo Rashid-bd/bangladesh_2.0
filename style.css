@@ -91,7 +91,7 @@ nav {
   max-width: 1280px;
   margin: 80px auto;
 }
-.pillars-title{
+.pillars-title {
   font-size: 40px;
   font-weight: bold;
   color: #0e0e0e;
@@ -115,30 +115,33 @@ nav {
   height: 64px;
   margin-bottom: 24px;
 }
-.pillar-card-title{
+.pillar-card-title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
   color: rgba(14, 14, 14, 0.8);
 }
-.pillar-card-description{
+.pillar-card-description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   line-height: 24px;
 }
+.pillar:hover {
+  box-shadow: 1px 1px 10px 5px rgb(201, 199, 199);
+}
 
 /* Visions section style */
-.vision-container{
+.vision-container {
   width: 1280px;
   margin: 0 auto;
 }
-.vision-title{
+.vision-title {
   font-size: 40px;
   font-weight: bold;
   color: #0e0e0e;
   margin-bottom: 24px;
 }
-.vision-description{
+.vision-description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   line-height: 24px;
@@ -224,6 +227,18 @@ nav {
 }
 .vision-3-btn-bg {
   background-color: #ffc239;
+}
+.vision-1-btn-bg:hover {
+  background-color: #5464f5;
+  transition: background 0.2s ease-in-out;
+}
+.vision-2-btn-bg:hover {
+  background-color: #0a7d43;
+  transition: background 0.2s ease-in-out;
+}
+.vision-3-btn-bg:hover {
+  background-color: #e1aa28;
+  transition: background 0.2s ease-in-out;
 }
 .vision-qoute {
   margin-top: 20px;
@@ -325,4 +340,215 @@ table > thead > tr > .head-2 {
 }
 .gap {
   margin-left: 12px;
+}
+
+/* Recent News section style*/
+.news {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.news-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.news-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.satellite {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 24px;
+}
+.satellite-2 {
+  flex-direction: row-reverse;
+}
+.satellite-text {
+  display: flex;
+  flex-direction: column;
+}
+.satellite-img img {
+  border-radius: 24px;
+}
+.satellite-text-title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.aljazeera {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+.datetime {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.satellite-text-descrition {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.satellite-btn {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Fira Sans";
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  align-self: flex-start;
+  background-color: #006a50;
+}
+
+/* Donate Today Section Stylr */
+.donate {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center
+}
+.donate-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.donate-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.amount-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.amount-btn button {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px;
+  border-radius: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: #FFFFFF;
+  border-color: rgba(14, 14, 14, 0.15);
+  
+}
+.amount-btn button:nth-child(3) {
+  background-color: #C6E4D6;
+}
+.amount-input input{
+  width: 1032px;
+  font-size: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  justify-content: center;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0px  1px 0px 0px rgba(14, 14, 14, 0.15);
+  margin-bottom: 32px;
+}
+.donate-done {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 17px 34px;
+  border-radius: 8px;
+  background-color: #006a50;
+  font-family: "Fira Sans";
+}
+.subscribe {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border-radius: 24px;
+  background-color: #C6E4D6;
+  padding: 80px 100px;
+  text-align: center;
+}
+.subscribe-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+.subscribe-description {
+  width: 622px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+#email {
+  width: 600px;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.email-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  padding: 17px 34px;
+  border-radius: 0 8px 8px 0;
+  background-color: #006a50;
+  font-family: "Fira Sans";
+}
+.subscribe span {
+  font-size: 16px;
+  font-family: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+footer {
+  padding: 50px 160px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.footer-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+hr {
+  width: 1122px;
+  color: rgba(14, 14, 14, 0.1);
+  margin-bottom: 32px;
+}
+.social-icon {
+  width: 121px;
+  display: flex;
+  justify-content:space-between ;
+  margin: 0 auto;
 }
